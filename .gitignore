@@ -3,3 +3,8 @@ build/
 *.exe
 __pycache__/
 *.pyc
+
+# Benchmark output is machine-specific, so it isn't checked in.
+results/
+*.csv
+*.png
